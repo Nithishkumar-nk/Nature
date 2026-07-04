@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Nurture the Nature for a Better Future - an environmental awareness project" />
+  <title>Nurture the Nature</title>
+
+  <!-- Preconnect for faster font loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Font (required) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Mobile / Desktop Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="Go to top">
+        <span class="brand-mark" aria-hidden="true">🌿</span>
+        <span class="brand-name">Nurture Nature</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <span class="nav-toggle-icon" aria-hidden="true">☰</span>
+        </button>
+
+        <div class="nav-links" id="mobileMenu" data-menu>
+          <a href="#about">About</a>
+          <a href="#why">Why Nature Matters</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#cta">Join</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container hero-content reveal" data-reveal>
+      <p class="hero-kicker">Environmental awareness • Small steps, big change</p>
+      <h1>Nurture the Nature for a Better Future</h1>
+      <p class="hero-subtitle">
+        Protect forests, reduce waste, and conserve water—together we can build a greener world for generations to come.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#about" data-scroll>
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal" data-reveal>
+        <h2>Why we should care</h2>
+        <p>
+          Nature gives us clean air, fresh water, food, and livelihoods. When we protect ecosystems, we protect human
+          health—and the future.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal" data-reveal>
+          <h3>What nature provides</h3>
+          <ul class="about-list">
+            <li>
+              <span class="icon" aria-hidden="true">🌳</span>
+              <div>
+                <strong>Trees</strong>
+                <span>Capture carbon and support biodiversity.</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">💧</span>
+              <div>
+                <strong>Clean Water</strong>
+                <span>Healthy watersheds feed communities and wildlife.</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">🦊</span>
+              <div>
+                <strong>Wildlife</strong>
+                <span>Balanced ecosystems keep nature resilient.</span>
+              </div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">🌬️</span>
+              <div>
+                <strong>Clean Air</strong>
+                <span>Forests and natural spaces help purify the air.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-media reveal" data-reveal>
+          <div class="about-media-inner"></div>
+          <p class="about-note">Every action—from planting to reducing pollution—helps restore the balance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY NATURE MATTERS CARDS -->
+  <section class="section section-alt" id="why">
+    <div class="container">
+      <div class="section-header reveal" data-reveal>
+        <h2>Why Nature Matters</h2>
+        <p>Four simple actions that support a healthier planet.</p>
+      </div>
+
+      <div class="cards" aria-label="Nature actions">
+        <article class="card reveal" data-reveal>
+          <div class="card-icon" aria-hidden="true">🌳</div>
+          <h3>Plant More Trees</h3>
+          <p>Plant native trees to improve air quality, protect soil, and create habitat.</p>
+        </article>
+
+        <article class="card reveal" data-reveal>
+          <div class="card-icon" aria-hidden="true">💧</div>
+          <h3>Save Water</h3>
+          <p>Use water wisely at home and school—small changes reduce pressure on rivers.</p>
+        </article>
+
+        <article class="card reveal" data-reveal>
+          <div class="card-icon" aria-hidden="true">♻️</div>
+          <h3>Reduce Waste</h3>
+          <p>Refuse, reuse, recycle—less trash means less pollution and cleaner communities.</p>
+        </article>
+
+        <article class="card reveal" data-reveal>
+          <div class="card-icon" aria-hidden="true">🐝</div>
+          <h3>Protect Wildlife</h3>
+          <p>Support biodiversity by keeping habitats safe and reducing harmful chemicals.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal" data-reveal>
+        <h2>Gallery</h2>
+        <p>Inspiration from forests, rivers, and wildlife around the world.</p>
+      </div>
+
+      <div class="gallery" aria-label="Nature photo gallery">
+        <!-- Unsplash placeholders (royalty-free). Use query-based images for easy replacement. -->
+        <figure class="gallery-item reveal" data-reveal>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=60"
+            alt="Forest path" />
+        </figure>
+        <figure class="gallery-item reveal" data-reveal>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=60"
+            alt="Mountain landscape" />
+        </figure>
+        <figure class="gallery-item reveal" data-reveal>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=60"
+            alt="Water and greenery" />
+        </figure>
+        <figure class="gallery-item reveal" data-reveal>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=60"
+            alt="Trees in sunlight" />
+        </figure>
+        <figure class="gallery-item reveal" data-reveal>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1443962882335-6b1d1a2d0d4f?auto=format&fit=crop&w=1200&q=60"
+            alt="Wildlife in nature" />
+        </figure>
+        <figure class="gallery-item reveal" data-reveal>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60"
+            alt="Meadow landscape" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="section section-alt" id="cta">
+    <div class="container cta reveal" data-reveal>
+      <h2>Join the Green Movement</h2>
+      <blockquote>
+        “The Earth is what we all have in common. Every small action today creates a greener tomorrow.”
+      </blockquote>
+      <a class="btn btn-primary btn-large" href="#about" data-scroll>
+        Join the Green Movement
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="container footer-inner">
+      <p class="copyright">© <span id="year"></span> Nature Awareness. All rights reserved.</p>
+
+      <div class="social" aria-label="Social media">
+        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+        <a href="#" class="social-link" aria-label="YouTube">▶️</a>
+      </div>
+
+      <p class="made-with">Made with ❤️ for Nature</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" type="button" aria-label="Scroll to top" id="scrollTop" title="Back to top">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
